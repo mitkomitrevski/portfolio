@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Mitko Mitrevski</title>
+
+    <style>
+        .container {
+            width: 100%;
+        }
+
+        section.hero {
+            padding-top: 0;
+            margin-bottom: 50px;
+        }
+
+        section h1 {
+            font-family: helvetica neue;
+            font-weight: 400;
+            display: block;
+            line-height: 90%;
+
+        }
+
+        section h2 {
+            font-family: helvetica neue;
+            font-weight: 200;
+            display: block;
+            line-height: 90%;
+        }
+
+
+        .heropic {
+            height: 500px;
+            WIDTH: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(PhotoRoom_20201218_214212.png);
+            background-attachment: scroll;
+            background-size: contain;
+
+        }
+
+        .herotext {
+            height: 100%;
+            width: 100%;
+            padding-top: 10%;
+            padding-right: 10%;
+            text-align: right;
+        }
+
+        .button1 {
+            border: none;
+            color: black;
+            padding: 10px 38px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            font-family: helvetica neue;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: #E9EBEC;
+            border-radius: 10px;
+        }
+
+        .button2 {
+            border: none;
+            color: black;
+            padding: 10px 38px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: helvetica neue;
+            font-weight: 500;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: #3FA9F5;
+            border-radius: 10px;
+        }
+
+        .button2:hover {
+            text-decoration: underline;
+        }
+
+        .buttondiv {
+            margin-left: auto;
+            margin-right: auto;
+            WIDTH: 185px;
+            transform: translateX(calc(50% - 106px));
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        h3 {
+            font-family: Helvetica neue;
+            font-size: 25px;
+            font-weight: normal;
+            color: black;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+
+        .firstpic {
+            width: 33%;
+            float: left;
+            opacity: 80%;
+            padding: 10px;
+            padding-bottom: 40px;
+        }
+
+        .firstpic img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .firstpic:hover {
+            opacity: 100%;
+            filter: none;
+        }
+
+        .education_container {
+            width: 33%;
+            float: left;
+
+            opacity: 70%;
+            padding: 10px;
+        }
+
+        .education_container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .education_container:hover {
+            filter: none;
+            opacity: 100%;
+        }
+
+        .experience_container {
+            width: 50%;
+            float: left;
+            opacity: 70%;
+            padding: 20px;
+        }
+
+        .experience_container:hover {
+            filter: none;
+            opacity: 100%;
+        }
+
+        .experience_container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .edu {
+            padding-bottom: 20px;
+        }
+
+        p img {
+            padding-right: 10px
+        }
+
+        p a {
+            font-size: 14px;
+            color: black;
+            text-decoration: none;
+        }
+
+        p a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        hr {
+            border: solid 0.5px black;
+            width: 100%;
+            color: black;
+            opacity: 100%;
+        }
+
+        .education_container,
+        .experience_container {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #text {
+            padding-top: 10px;
+        }
+
+        .contact {
+            padding-bottom: 50px;
+            text-align: center;
+            width: 100%;
+        }
+
+        footer {
+            clear: both;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #EEEEEE;
+            color: white;
+            text-align: center;
+        }
+
+        #AbtMe {
+            padding-bottom: 30px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .education_container {
+                float: none;
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .experience_container {
+                float: none;
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .firstpic {
+                float: none;
+                width: 80%;
+                padding-right: 0px;
+                padding-left: 0px;
+                margin: 0 auto;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="hero">
+            <div class="herotext">
+                <h1>Mitko Mitrevski</h1>
+                <h2>UX Designer</h2>
+            </div>
+            <div class="heropic"></div>
+            <div class="buttondiv">
+                <a href="#aboutme"><input type="button" class="button1" value="FIND OUT MORE  ⬇️" /></a>
+            </div>
+
+    </div>
+    </section>
+
+    <section class="Aboutme" id="aboutme">
+        <div class="container">
+            <div class="ABTME">
+                <hr>
+                <h3>
+                    🙋🏻‍♂️ About me
+                </h3>
+                <p id="AbtMe">
+                    <b>Hi there!</b> 👋🏼 I am Mitko Mitrevski, a young professional based in Prague and skilled
+                    in the
+                    fields of
+                    Business,
+                    IT &
+                    Design. Throughout my educational trajectory and work experience, I have
+                    gathered
+                    the
+                    appropriate competence
+                    to design and manage your next project, so do not hesitate to reach out to me!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Education">
+        <div class="container">
+            <hr>
+            <h3>
+                🎓 Education
+            </h3>
+            <div class="edu">
+                <div class="education_container">
+                    <img src="Group 19.png">
+                    <p id="text"><b>2014 - 2015</b><br>Preparatory course in Czech for Economics studies</p>
+                </div>
+                <div class="education_container">
+                    <img src="Group 20.png">
+                    <p id="text"><b>2015 - present</b><br>Ing. in International Business & Economics</p>
+                </div>
+                <div class="education_container">
+                    <img src="Group 21.png">
+                    <p id="text"><b>2020 - present</b><br>UX & UI Design</p>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="Experience">
+        <div class="container">
+            <hr>
+            <h3> 👨🏻‍💻 Experience </h3>
+
+            <div class="experience_container">
+                <img src="Group 23.png">
+                <p id="text"><b>Jun 2017 - Aug 2018</b><br>Senior Logistics Analyst</p>
+                <div style="clear: both;"></div>
+            </div>
+            <div class="experience_container">
+                <img src="Group 22.png">
+                <p id="text"> <b>Sep 2018 - present</b><br>IT Service Coordinator</p>
+                <div style="clear: both;"></div>
+            </div>
+
+        </div>
+        <div style="clear: both;"></div>
+    </section>
+
+    <section class="Projects">
+        <div class="prjcts">
+            <div class="container">
+                <hr>
+                <h3>
+                    💾 Projects
+                </h3>
+
+                <div class="firstpic">
+                    <img src="Group 16.svg">
+                </div>
+
+                <div class="firstpic">
+                    <img src="Group 18.svg">
+                </div>
+
+                <div class="firstpic">
+                    <img src="Group 17.svg">
+
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </section>
+
+    <section class="Contactme">
+        <div class="container">
+            <hr>
+            <h3>☎️ Contact me</h3>
+            <div class="contact">
+                <a href="mailto:mitkomitrevski@icloud.com">
+                    <input type="button" class="button2" value="📧  E-mail" /></a>
+                <a href="tel:+420730900300"><input type="button" class="button2" value="📱 730 900 300" /></a>
+                <a href="https://www.linkedin.com/in/mitkomitrevski/" target="_blank"><input type="button"
+                        class="button2" value="👤 LinkedIn" /></a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
